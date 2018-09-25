@@ -1,0 +1,37 @@
+<html>
+<head><link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style>
+body,html {
+    background-image: url('https://arcusa.com/sites/default/files/portfolioimages/5_26.jpg');
+    height: 100%;
+}
+
+#profile-img {
+    height:180px;
+}
+
+.h-80 {
+    height: 80% !important;
+}
+</style>
+</head>
+<body>
+<div class="container h-80">
+<div class="row align-items-center h-100">
+    <div class="col-3 mx-auto">
+        <div class="text-center">
+            <img id="profile-img" class="profile-img-card" src="https://i.imgur.com/Y9TN8z5.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form action="Verification" method="POST" class="form-signin">
+                <input type="password" name="passkey" id="inputPassword" class="form-control form-group" placeholder="passkey" required autofocus>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Enter</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
